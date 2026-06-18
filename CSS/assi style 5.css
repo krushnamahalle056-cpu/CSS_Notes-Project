@@ -45,16 +45,3 @@
     margin-left: 5px;
 
 }
-
-.info{
-    height: 400px;
-    width: 400px;
-    border: 4px solid rgb(97, 220, 220);
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px auto;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    align-items: center;
-    text-align: center;
-}

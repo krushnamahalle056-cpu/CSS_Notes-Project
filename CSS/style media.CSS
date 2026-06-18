@@ -1,0 +1,38 @@
+    i{
+        color: brown;
+    }
+    span{
+        color: darkgoldenrod;
+    }
+    .card{
+        height: 600px;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+        display: inline-block;
+        
+    }
+    img{
+        height: 200px;
+        width: 360px;
+        padding: 20px;
+        border-radius: 30px;
+       
+    }
+    #pets{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    p{
+        padding: 10px;
+        font-family: serif;
+    }
+    h3{
+        padding-left: 15px;
+    }
+    @media (max-width:375px) {
+        #pets{
+            flex-wrap: wrap;
+        }
+    }
+       

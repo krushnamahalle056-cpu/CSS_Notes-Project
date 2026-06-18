@@ -1,0 +1,68 @@
+p{
+    color: brown;
+    text-align: center;
+    line-height: 30px;
+}
+h1{
+    text-align: center;
+    color: #ff0000;
+    font-family: Georgia;
+   
+}
+h3{
+    text-align: center;
+    color: black;
+}
+
+
+
+
+a{
+    text-decoration: solid;
+    color: rgb(00, 255, 00)
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+    color: black;
+}
+span{
+    text-decoration: underline;
+}
+
+/* assignment no 2 */
+
+#mainTopic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+.font{
+    font-family:Georgia;
+}
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+.para:nth-of-type(odd){
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+input[type="checkbox"]:checked+label{
+    color: darkblue;
+}

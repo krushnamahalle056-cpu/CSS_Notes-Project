@@ -1,0 +1,78 @@
+div{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: aqua;
+    display: inline-block;
+}
+#static{
+    background-color: magenta;
+    position: static;
+    left: 100px;
+    top: 50px;
+}
+#Relative{
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+#absolute{
+    background-color: rgb(0, 255, 34);
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+#fixed{
+    background-color: rgb(255, 106, 0);
+    position: fixed;
+    left: 100px;
+    top: 50px;
+}
+#sticky{
+    background-color: rgb(18, 129, 44);
+    position: sticky;
+    left: 100px;
+    top: 50px;
+}
+#fase{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    border-radius:50%;
+    background-color: yellow;
+}
+#yeas1{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+#yeas2{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left:20px ;
+    top: 20px;
+}
+#mouth{
+    height: 35px;
+    width: 100px;
+    background-color: aliceblue;
+    position: relative;
+    left:30px ;
+    top: 20px;
+    border-radius: 5px 5px 70px 70px;
+}
+h2{
+    color: fuchsia;
+    position: relative;
+    left: 20px;
+    top:30px;
+}
